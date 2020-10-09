@@ -1,0 +1,513 @@
+.body{
+    background-color: white;
+}
+/*
+.logo{
+   
+    float: left;
+    height: 70px;
+    max-width: auto;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}*/
+
+/*.search{
+    max-width: auto;
+    float: right;
+    background-color: white;
+    margin-top:  55px;
+    padding: 5px;
+    margin-bottom:  1px;
+}*/
+.clearfix{
+    clear: both;
+}
+/*.main_menu{
+    background-color: brown;
+}*/
+
+/*
+.navigation > ul{
+    
+    text-align-last: center; 
+    padding: 0px;
+    float: right;
+    max-width: auto;
+    list-style-type: none;
+}
+
+.navigation > ul > li {
+    display: inline-block;
+}
+
+.navigation > ul > li > a{
+    color: brown;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: serif;
+}
+.navigation > ul > li > a:hover{
+    background-color: teal;
+}
+.drop{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+.drop > li > a{
+
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: serif;
+    font-size: small;
+    background-color: black;
+}
+.main_menu > ul > li:hover .drop{
+    display: block;
+}
+.drop > li > a:hover{
+    background-color: teal;
+} */
+
+
+.navigation{
+    padding-bottom:30px;
+    position:absolute;
+    width: 1500px;
+    z-index:1;
+  }
+  .navigation > ul{
+    
+    text-align-last: center; 
+    padding: 0px;
+    list-style-type: none;
+    margin-right: 160px;
+    margin-top: 25px;
+}
+
+.navigation > ul > li {
+    display: inline-block;
+}
+  
+  .navbar-right{
+    float:right;
+    list-style-type: none;
+    
+    
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    list-style-type: none;
+    color: #fff;
+    font-family:Arial;
+    font-size: 17px;
+    font-weight:900;
+    
+  }
+  
+  .navbar-right a:hover{
+    text-decoration:underline;
+    color: white;
+  }
+
+  .drop{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+.drop > li > a{
+
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family:Arial;
+    font-weight:700;
+    font-size: small;
+    background-color: black;
+}
+.navigation > ul > li:hover .drop{
+    display: block;
+    
+}
+.drop > li > a:hover{
+    background-color: teal;
+}
+  .navbar-logo > img{
+
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+
+  }
+  
+  .downarrow > img{
+
+    width: 50px;
+    height: auto;
+    position:absolute;
+    margin-top: 650px;
+    float: right;
+    display: block;
+    text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+    margin-left: 750px;
+
+  }
+
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  
+  .textonvideo > h1{
+      position: absolute;
+      width: 700px;
+      height: auto;
+      font-weight: bolder;
+      color: white;
+      margin-top: 250px;
+      margin-left: 100px;
+      font-size: 80px;
+  }
+
+  .textonvideo > p{
+      position: absolute;
+      width: 500px;
+      height: auto;
+      color: white;
+      margin-top: 450px;
+      margin-left: 100px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+
+.banner {
+    max-width: 700px;
+    height: 500px ;
+    overflow: hidden;
+    padding: 50px;
+    float: right;
+    
+}
+.banner > img{
+    width: 700px;
+    height: 450px;
+    float: right;
+    padding: 50px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.bannervideocontainer{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.bannervideo{
+max-width: 100%;
+height: auto;
+
+}
+
+.content{
+    max-width: 700px;
+    padding: 40px;
+    float: left;
+    margin-left: 45px;
+}
+.content > main > h1{
+    font-size: 30px;
+    color: brown;
+
+}
+.content > main > p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+
+.topcourses{
+    text-align-last: center; 
+    
+}
+.topcourses > h1{
+    font-style: bold;
+    font-family: sans-serif;
+    text-decoration: underline overline brown;
+    margin-bottom: 15px;
+}
+
+.qualifications{
+   
+   
+    align-items: center;
+}
+.qualification_list{
+    text-align: center;
+    
+}
+
+.qualificaionImages{
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+.qualificationContainer {
+    position: relative;
+    width: 300px;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 300px;
+    height: 190px;
+    border: thin solid brown;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 190px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ;
+    background-color: #008CBA;
+    
+  }
+  
+  .qualificationContainer:hover .overlay {
+    opacity: 0.7;
+    text-decoration: none;
+    
+  }
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text > a{
+    color: white;     
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-style: initial;
+    font-weight: bolder;
+  }
+
+  .text > a > :hover{
+      
+      color: white;
+  }
+
+.ImageTitle{
+    background-color: brown;
+    color: white;
+    width: 300px;
+    height: auto;
+    text-decoration: bold;
+    font-family: sans-serif;
+    font-style: inherit;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.ImageTitle > a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+   
+}
+
+
+.counter{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.middle {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    
+}
+
+.counting-sec{
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(90deg,#0a3d62, #82ccdd);
+}
+
+.inner-width{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col > i{
+    font-size: 40px;
+    color: brown;
+}
+.num{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+.footer{
+    background-color: brown;
+    color: white;
+    
+}
+
+.footerContentHolder{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quicklinks{
+    max-width: 15%; 
+   max-height: auto;
+   float: left;
+   margin-top: 20px;
+   position: relative ;
+   
+}
+.quicklinks > h3{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.quicklinks > ul > li > a{
+ color: white;
+ text-decoration: none;
+ padding-inline-start: 0px;
+ font-family:sans-serif;
+ font-size: small;
+ 
+ 
+}
+
+.quicklinks > ul > li > a:hover{
+    background-color: teal;
+}
+.quicklinks > ul > li{
+    display: block;
+text-align: left;
+margin-left: 30px;
+}
+
+.quicklinks > ul{
+    padding-inline-start: 0px;
+}
+
+.quicklinks > p{
+    line-height: 25px;
+    font-family:sans-serif;
+    font-size: small;
+    margin-left: 30px;
+}
+.quicklinks > p > a{
+    color: white;
+ text-decoration: none;
+ padding-inline-start: 0px;
+ font-family:sans-serif;
+ font-size: small;
+}
+
+
+.FCertificate{
+    max-width: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 110px;
+}
+
+.FCertificate > p{
+    text-align: justify;
+    font-size: small;
+    line-height: 25px;
+    margin: none;
+    font-family:sans-serif;
+}
+
+.FCertificate > h2{
+    color:  white;
+    font-size: 20px;
+    
+}
+
+.copy{
+    background-color: brown;
+}
+.copy > p{
+    margin: 0px;
+    text-align: center;
+    font-size: small;
+}
+
+.socialmedia > img{
+   float: left;
+   float: right;
+   width: 200px;
+   height: 50px;
+   margin-right: 280px;
+}
+
